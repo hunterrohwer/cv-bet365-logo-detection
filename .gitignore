@@ -1,0 +1,31 @@
+# Claude Code settings (not part of the project)
+.claude/
+
+# Virtual environment
+.venv/
+
+# YOLOv8 base model — auto-downloaded by ultralytics on first use
+yolov8n.pt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large video files (store locally, not in git)
+*.mp4
+*.avi
+
+# Machine-specific config (regenerated at runtime by 4_train.py)
+data.yaml
+
+# YOLO training artifacts — large directories written by Ultralytics
+runs/
+
+# Dataset images and labels — too large for git (~1 GB total)
+# Collect your own frames from the source video and annotate them in Label Studio.
+images/
+labels/
+
+# Model weights ARE committed — at ~6 MB they're well within GitHub's limits
+# and let anyone clone the repo and immediately run 5_detect.py.
