@@ -11,11 +11,7 @@ the logo every time it appears on screen.
 
 ## Demo
 
-The result of running the detection pipeline on `nuggets_thunder.mp4`:
-
-| Original frame | Detected logo |
-|---|---|
-| Bet365 logo appears in the broadcast overlay | YOLOv8 draws a bounding box with confidence score |
+![Bet365 logo detection in action](demo.gif)
 
 To reproduce the result yourself:
 
